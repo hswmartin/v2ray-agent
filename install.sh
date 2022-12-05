@@ -5436,10 +5436,6 @@ menu() {
 	echoContent green "Github:https://github.com/panhuanghe/v2ray-agent"
 	echoContent green "描述:八合一共存脚本\c"
 	showInstallStatus
-	echoContent red "\n=============================================================="
-	echoContent red "                        推广区                      "
-	echoContent green "AFF捐赠：免费脚本无需捐助"
-	echoContent red "=============================================================="
 	if [[ -n "${coreInstallType}" ]]; then
 		echoContent yellow "1.重新安装"
 	else
